@@ -1,0 +1,29 @@
+body,html {
+	margin : 0;
+	padding : 0;
+}
+
+
+
+.container{
+	position : static;
+	top : 100%;
+	left : 100%;
+    
+	min-width : 100%;
+	min-height : 50%;
+    background : "images/techno.jpg";
+	z-index = 1;
+}
+iframe {
+	display:block;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 850px;
+    height: 650px;
+    margin: 0 auto;
+    vertical-align: middle;
+
+    background-color: orange;
+}
